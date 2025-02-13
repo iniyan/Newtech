@@ -37,7 +37,9 @@ export default function Navbar() {
               {item.label}
             </Link>
           ))}
-          <Button size="sm">Contact Us</Button>
+          <Link href="/contact">
+            <Button size="sm">Contact Us</Button>
+          </Link>
         </nav>
 
         {/* Mobile Navigation */}
@@ -60,9 +62,11 @@ export default function Navbar() {
                   {item.label}
                 </Link>
               ))}
-              <Button className="mt-4" onClick={() => setIsOpen(false)}>
-                Contact Us
-              </Button>
+              <Link href="/contact">
+                <Button className="mt-4 w-full" onClick={() => setIsOpen(false)}>
+                  Contact Us
+                </Button>
+              </Link>
             </nav>
           </SheetContent>
         </Sheet>
