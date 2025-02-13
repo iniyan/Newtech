@@ -19,7 +19,7 @@ export default function Hero() {
           <ArrowRight className="ml-2 h-4 w-4" />
         </Button>
         <Button variant="outline" size="lg">
-          Contact Us
+        <a href="https://newtechdigitalmarketing.in/contact">Contact Us Now</a>
         </Button>
       </div>
     </section>

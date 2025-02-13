@@ -10,7 +10,7 @@ export default function CTA() {
           Marketing today!
         </p>
         <Button size="lg" className="mt-4">
-          Contact Us Now
+          <a href="https://newtechdigitalmarketing.in/contact">Contact Us Now</a>
         </Button>
       </div>
     </section>
