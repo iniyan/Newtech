@@ -48,7 +48,7 @@ export default function Navbar() {
               <span className="sr-only">Toggle menu</span>
             </Button>
           </SheetTrigger>
-          <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+          <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-[#f5f5f5]">
             <nav className="flex flex-col space-y-4 mt-8">
               {navItems.map((item) => (
                 <Link
@@ -70,4 +70,3 @@ export default function Navbar() {
     </header>
   )
 }
-
