@@ -13,11 +13,11 @@ export default function Home() {
         <div className="mb-8">
           <h1 className="text-5xl md:text-7xl font-bold mb-4">
             <span className="bg-gradient-to-r from-[#9C27B0] to-[#E91E63] bg-clip-text text-transparent">
-              New Tech Digital Marketing
+              New Tech
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground">
-            
+            Digital Marketing
           </p>
         </div>
 
@@ -42,8 +42,10 @@ export default function Home() {
         </div>
 
         {/* Contact Info */}
+        <div className="text-sm text-muted-foreground">
+          <p>For inquiries, please contact us</p>
+        </div>
       </div>
     </div>
   )
 }
-
